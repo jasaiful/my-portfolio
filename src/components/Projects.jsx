@@ -3,7 +3,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { Link } from 'react-router-dom';
 // import surveyMaster from '../assets/projects/Survey Master.JPG'
 // import careerCenter from '../assets/projects/Career Center.JPG'
 // import fruitBurst from '../assets/projects/Fruit Burst.JPG'
@@ -37,21 +36,19 @@ const Projects = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div id="slide1" className="carousel-item relative w-full">
+                        <div id="slide1" className="carousel-item relative px-6 md:px-1 w-full">
                             <img className="w-full rounded-xl" src='https://i.ibb.co/fNfPFgP/Brand-Shop.jpg' alt="project_img" />
                             <div className="absolute rounded-xl flex items-center justify-end h-full hero-overlay bg-opacity-40">
                                 <div className='text-white space-y-7 text-right pr-12'>
-                                    <h2 className='text-6xl className  font-bold'>Dynamic React Application</h2>
+                                    <h2 className='text-4xl className  font-bold'>Dynamic React Application</h2>
                                     <div>
-
                                         <a href="https://github.com/jasaiful/brand-shop-client/" target="_blank" rel="noopener noreferrer">
-                                            <button className="btn btn-primary mr-5">Code</button>
+                                            <button className="btn btn-ghost hover:text-white outline outline-2 outline-rose-500 mr-5 text-lg hover:bg-rose-500">Code</button>
                                         </a>
 
                                         <a href="https://brand-shop-c7580.web.app/" target="_blank" rel="noopener noreferrer">
-                                            <button className="btn btn-secondary mr-5">Live</button>
+                                            <button className="btn btn-ghost hover:text-white outline outline-2 outline-rose-500 text-lg hover:bg-rose-500">Live</button>
                                         </a>
-
                                     </div>
                                 </div>
                             </div>

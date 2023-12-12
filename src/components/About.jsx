@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import { FaArrowRight, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
     return (
