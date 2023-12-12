@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import logo from '../assets/2logo.png'
 

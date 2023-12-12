@@ -10,7 +10,7 @@ const Banner = () => {
                     <div className="md:w-1/2 p-5">
                         <img className="hover:scale-110 duration-500 rounded-b-full" src="https://i.ibb.co/rvQCWby/Banner.png" alt="banner" />
                     </div>
-                    <div className="md:w-1/2 px-5 md:p-0 space-y-5 mx-10">
+                    <div className="md:w-1/2 space-y-5 mx-10">
                         <h3 className="text-rose-600 font-semibold text-3xl">Hello, I'm</h3>
                         <h1 className="text-6xl font-semibold mb-4">Julfiker Ali</h1>
                         <h5 className="text-2xl"> A Creative <span className="text-rose-600 font-semibold">Front-End Developer</span> From <span className="text-green-600 font-semibold">Bangladesh</span></h5>
