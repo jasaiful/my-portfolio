@@ -43,13 +43,14 @@ const Projects = () => {
                                 <div className='text-white space-y-7 text-right pr-12'>
                                     <h2 className='text-6xl className  font-bold'>Dynamic React Application</h2>
                                     <div>
-                                        
-                                        <Link to={{ pathname: 'https://github.com/jasaiful/brand-shop-client' }} target="_blank">
+
+                                        <a href="https://github.com/jasaiful/brand-shop-client/" target="_blank" rel="noopener noreferrer">
                                             <button className="btn btn-primary mr-5">Code</button>
-                                        </Link>
-                                        <Link to={{ pathname: 'https://brand-shop-c7580.web.app/' }} target="_blank">
-                                            <button className="btn btn-primary mr-5">Live</button>
-                                        </Link>
+                                        </a>
+
+                                        <a href="https://brand-shop-c7580.web.app/" target="_blank" rel="noopener noreferrer">
+                                            <button className="btn btn-secondary mr-5">Live</button>
+                                        </a>
 
                                     </div>
                                 </div>
