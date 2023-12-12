@@ -1,27 +1,25 @@
+import { Link } from "react-scroll";
+import { FaArrowRight, FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div name='about' className='w-full h-screen'>
-            <div className='flex flex-col justify-center items-center w-full h-full'>
-                <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-                    <div className='sm:text-right pb-8 pl-4'>
+        <div className="w-full pt-16">
+            <div className="relative hero w-full">
+                <img className="w-full opacity-25 max-h-screen" src="https://i.ibb.co/zXpJ4HM/bg.jpg" alt="img" />
+                <div className="absolute max-w-6xl mx-auto md:gap-20 rounded-xl md:flex justify-between md:flex-row-reverse items-center h-full  ">
+                    <div className="md:w-1/2 p-5">
+                        <img className="hover:scale-110 w-7/12 duration-500 rounded-full" src="https://i.ibb.co/vDJx30T/image.png" alt="banner" />
+                    </div>
+                    <div className=" md:w-1/2 p-5 md:p-0 space-y-10 mx-10">
                         <p className='text-4xl font-bold inline border-b-4 border-rose-600'>
-                            About
+                            About <span className="text-rose-600">Me</span>
                         </p>
+                        <h5 className="text-xl text-justify">I am available for exciting opportunities to apply my passion and skills in front-end development, eager to contribute, learn, and grow in collaborative projects.</h5>
+                        <div>
+                            <Link to="contact" smooth={true} duration={500}><button className="btn btn-ghost hover:text-white outline outline-2 outline-rose-500 text-lg hover:bg-rose-500">Hire Me</button> </Link>
+                        </div>
                     </div>
-                    <div></div>
-                </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                    <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi, I am Julfiker Ali, nice to meet you. Please take a look around.</p>
-                    </div>
-                    <div>
-                        <p>I am passionate about building excellent software that improves
-                            the lives of those around me. I specialize in creating software
-                            for clients ranging from individuals and small-businesses all the
-                            way to large enterprise corporations. What would you do if you had
-                            a software expert available at your fingertips?</p>
-                    </div>
+
                 </div>
             </div>
         </div>

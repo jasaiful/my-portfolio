@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import Skills from '../components/Skills';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
+import Projects from '../components/Projects';
 
 
 const Home = () => {
@@ -44,7 +45,8 @@ const Home = () => {
 
     return (
         <>
-            <div className="navbar max-w-7xl mx-auto md:fixed md:z-10 bg-opacity-70 bg-gray-200 border-b-4 font-semibold">
+           <div>
+             <div className="navbar max-w-7xl mx-auto md:fixed md:z-10 bg-opacity-70 bg-gray-200 border-b-4 md:px-16 rounded-xl font-semibold">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -54,7 +56,6 @@ const Home = () => {
                             {navLinks}
                         </ul>
                     </div>
-
 
                     <Link to="/" className="btn btn-ghost font-bold italic text-3xl">Julfiker <span className="text-rose-500">Ali</span></Link>
                 </div>
@@ -66,7 +67,7 @@ const Home = () => {
                 </div>
                 <div className="navbar-end">
                     {/* Download CV button */}
-                    <button className="btn btn-ghost hover:text-white outline outline-2 outline-rose-500 text-lg hover:bg-rose-500">Download CV</button>
+                    <button className="btn btn-sm md:btn-md hover:text-white outline outline-2 outline-rose-500 md:text-lg hover:bg-rose-500">Download CV</button>
                 </div>
             </div>
             {/* Define your sections with corresponding IDs */}
@@ -83,11 +84,12 @@ const Home = () => {
                 <Skills></Skills>
             </div>
             <div id="experience">
-               <Skills></Skills>
+               <Projects></Projects>
             </div>
             <div id="contact">
                <Contact></Contact>
             </div>
+           </div>
         </>
     );
 
