@@ -65,7 +65,7 @@ const Home = () => {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <a href="https://drive.google.com/u/0/uc?id=1jvVlmNkj-4HgevHUl1C-WeRFCRbsNMYi&export=download" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/u/0/uc?id=1tA5G1_yuiI8B7TV9RETUW0y8f-95wFpa&export=download" target="_blank" rel="noopener noreferrer">
                             <button className="btn btn-ghost hover:text-white outline outline-2 outline-rose-500 md:text-lg hover:bg-rose-500">Download CV</button>
                         </a>
 

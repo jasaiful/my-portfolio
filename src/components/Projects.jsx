@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -7,7 +6,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Projects = () => {
     return (
-        <div className='max-w-6xl mx-auto px-5 pt-16 md:pt-24 max-h-screen'>
+        <div className='max-w-6xl mx-auto px-5 pt-16 md:pt-20 max-h-screen'>
             <div>
                 <div>
                     <p className='text-4xl font-bold inline border-b-4 border-rose-600'>
@@ -15,7 +14,6 @@ const Projects = () => {
                     </p>
                     <p className='py-3'>Check out some of my recent work</p>
                 </div>
-
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}

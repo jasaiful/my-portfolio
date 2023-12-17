@@ -11,7 +11,7 @@ const About = () => {
                     </div>
                     <div className=" md:w-1/2 p-5 md:p-0 space-y-10 mx-10">
                         <p className='text-4xl font-bold inline border-b-4 border-rose-600'>
-                            About <span className="text-rose-600">Me</span>
+                            About <span className="text-rose-500">Me</span>
                         </p>
                         <h5 className="text-xl text-justify">I am available for exciting opportunities to apply my passion and skills in front-end development, eager to contribute, learn, and grow in collaborative projects.</h5>
                         <div>
